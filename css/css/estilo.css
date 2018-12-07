@@ -1,0 +1,33 @@
+*{
+	padding: 0px;
+	margin: 0px;
+}
+
+#bloco_form{
+	width: auto;
+	height: auto;
+	margin: auto;
+}
+
+.site-header {
+	height: 100vh;
+	background: white;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+
+#container-login{
+	height: 100vh;
+    padding: 0px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+#login{
+	width: 30%;
+	height: auto;
+	margin: 0 center;
+}
