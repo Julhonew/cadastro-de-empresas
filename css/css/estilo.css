@@ -3,10 +3,43 @@
 	margin: 0px;
 }
 
+a{
+	color: black;
+}
+
+a:active{
+	background: black;
+	color: white;
+}
+
+a:hover{
+	color: black;
+}
+
+h1{
+	text-align: center;
+	margin-top: 20px; 
+}
+
+.fundo-click:active{
+	background: black;
+	color: white;
+}
+
+li:active, a:active{
+	color: white;
+}
+
+
+#meu-container{
+	margin-top: 60px;
+}
+
 #bloco_form{
 	width: auto;
 	height: auto;
-	margin: auto;
+	margin: auto; 
+	margin-top: 20px; 
 }
 
 .site-header {
@@ -19,15 +52,45 @@
 
 #container-login{
 	height: 100vh;
-    padding: 0px;
+	padding: 0px;
     display: flex;
     flex-direction: row;
     justify-content: center;
     align-items: center;
 }
 
-#login{
+#form-table-pesquisar{
 	width: 30%;
-	height: auto;
-	margin: 0 center;
 }
+
+#btn-pesquisar{
+	margin-left: 30px ; 
+}
+
+#table-infos{
+	width: 100%;
+}
+
+.td-center{
+	height: 10px;
+	text-align: center;
+}
+
+#meu-form-cadastro{
+	width: 50%;
+	margin: 0 auto;
+}
+
+#meu-form-login{
+	width: 12%;
+}
+
+#meu-menu{
+	display: inline;
+	list-style: none;
+
+}
+
+.visor{
+	display: none;
+}	

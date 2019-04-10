@@ -1,10 +1,10 @@
 <?php include('topo.php')?>
 
 
-<div class="col-xs-12" id="bloco_form" >
+<div class="col-xs-8" id="bloco_form" >
 
-	<form action="concluido.php" method="post">
-		<h1>Cadastre uma empresa</h1>
+	<form action="concluido.php" method="get">
+		<h1>Cadastre um empresa</h1>
 		<table class="table" border="1" id="meu-form-cadastro" >
 			<tr>
 				<td><label>Empresa</label>
@@ -12,7 +12,7 @@
 			</tr>
 			<tr>
 				<td><label>Telefone</label>
-				<input type="number" class="form-control" name="telefone"></td>
+				<input type="text" class="form-control" name="telefone"></td>
 			</tr>
 			<tr>
 				<td><label>Responsavel</label>
@@ -20,7 +20,7 @@
 			</tr>
 			<tr>
 				<td><label>Email</label>
-				<input type="E-mail" class="form-control" name="email"></td>
+				<input type="text" class="form-control" name="email"></td>
 			</tr>
 			<tr>
 				<td ><label>TellBox:</label>
